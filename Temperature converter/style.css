@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
+
+
+html, body {
+  width: 100%;
+  height:100%;
+  margin: 0%;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 20px;
+}
+h1 {
+  
+font-family: 'Ysabeau', sans-serif;
+  background: linear-gradient(to right,#275f75,#1b1d1c,#2e6f88);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        
+}
+.card{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 50vh; 
+ 
+  border: 5px solid rgb(23, 23, 49);
+  color: #fffcfc;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  box-shadow: inset 2px 2px 2px 2px #2cb67d;
+              
+              background-color : rgba(17, 98, 190, 0.027);
+  transition: 0.3s;
+  width: 40%;
+  text-align: center; 
+  display: block;
+
+  margin: 0 auto;
+}
+input[type="button"] {
+  background-color: rgb(12, 16, 53);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+label[for="temp-type"]{
+    width: 70px;
+}
+label[for="celsius-output"], 
+label[for="fahrenheit-output"], 
+label[for="kelvin-output"] {
+  display: inline-block;
+  width: 80px; 
+  text-align: right;
+  margin-right: 10px;
+  vertical-align: top;
+}
+output {
+  display: inline-block;
+  border: 2px solid rgb(253, 249, 249);
+  height: 15px; 
+  width: 120px; 
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 2px;
+  vertical-align: top;
+}
+
+.card.select-temp option
+{
+width: 100%;
+padding: 10px 0;
+font-size: 16px;
+color:azure;
+margin-bottom : 30px;
+border:none;
+border-bottom:1px solid #fff;
+outline:none;
+background:transparent;
+
+}
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(90deg, #275f75, #2cb67d, #2e6f88);
+}
